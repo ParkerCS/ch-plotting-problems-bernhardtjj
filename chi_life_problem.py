@@ -46,7 +46,7 @@ plt.barh(np.arange(len(y_data)), y_data, 0.8, color=color_list)
 
 plt.title("Li$\int$e $\mathfrak{Expectancy}$ of Chicago 2010")
 # # Labels your bars on the x axis
-plt.yticks(np.arange(len(y_data)), x_labels, rotation=0)  # x,y,kwarg
+plt.yticks(np.arange(len(y_data)), x_labels, rotation=0, size=7)  # x,y,kwarg
 #
 plt.xlabel("Years")
 plt.ylabel("Neighborhood")
